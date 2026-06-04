@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0d12">
+    
+    <!-- Primary Meta Tags -->
+    <title>Axandr | Computer Systems & Tech Enthusiast</title>
+    <meta name="title" content="Axandr | Computer Systems & Tech Enthusiast">
+    <meta name="description" content="Portofolio resmi Axandr - Mahasiswa tingkat akhir Sistem Komputer dengan minat mendalam pada pengembangan Web, Mobile, Internet of Things (IoT), dan Cyber Security.">
+    <meta name="keywords" content="Axan, Axandr, Portofolio, Sistem Komputer, IoT, Cyber Security, Web Developer, Mobile Developer, Magang BPS Kalteng">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/portfolio">
+    <meta property="og:title" content="Axandr | Computer Systems & Tech Enthusiast">
+    <meta property="og:description" content="Portofolio resmi Axandr - Mahasiswa tingkat akhir Sistem Komputer dengan minat mendalam pada pengembangan Web, Mobile, Internet of Things (IoT), dan Cyber Security.">
+    <meta property="og:image" content="asset/profile.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Axandr | Computer Systems & Tech Enthusiast">
+    <meta property="twitter:description" content="Portofolio resmi Axandr - Mahasiswa tingkat akhir Sistem Komputer dengan minat mendalam pada pengembangan Web, Mobile, Internet of Things (IoT), dan Cyber Security.">
+    <meta property="twitter:image" content="asset/profile.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="asset/favicon.png">
+
+    <!-- DNS Prefetch / Preconnect for CDNs (Performance Optimization) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- Google Fonts Poppins -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap">
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Custom Style CSS -->
+    <link rel="stylesheet" href="style.css?v=1.6">
+</head>
+<body class="loading">
+    <!-- Preloader Screen -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <h1 class="preloader-logo"><span id="preloader-accent"></span><span id="preloader-text"></span><span class="preloader-cursor" aria-hidden="true">|</span></h1>
+        </div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header>
+        <a href="#home" class="logo">
+            <img src="asset/favicon.png" alt="Logo Axandr" class="logo-icon" height="90">
+        </a>
+
+        <!-- Hamburger Menu Button for Mobile -->
+        <button id="menu-btn" class="menu-toggle" aria-label="Toggle Navigation Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#blog" class="nav-link">Blog</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section (Hero) -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Axan</span></h1>
+            <!-- SEO-friendly typing animation: text is present in DOM but styled dynamically -->
+            <h3 class="typing-container">Focusing on <span id="typed-text">Computer Systems</span><span class="typed-cursor" aria-hidden="true">|</span></h3>
+            <p class="bio-text">Saya adalah seorang mahasiswa jurusan Sistem Komputer yang memiliki minat besar pada integrasi perangkat keras dan perangkat lunak. Saya aktif mengeksplorasi pengembangan aplikasi Web, Mobile, Internet of Things (IoT), serta bidang Cyber Security untuk membangun solusi teknologi yang aman, cerdas, dan interaktif.</p>
+            
+            <div class="social-icons">
+                <a href="#https://www.instagram.com/axan_ndr" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/axan_ndr" aria-label="Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            
+            <div class="btn-group">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="#" class="btn btn-secondary">Download CV</a>
+            </div>
+        </div>
+        
+        <div class="home-img">
+            <!-- Optimasi LCP: high fetch priority untuk gambar hero -->
+            <img src="asset/profile.png" alt="Foto profil digital Axan sedang mengembangkan kode" fetchpriority="high">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading"><span>Services</span></h2>
+        
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-icon"><i class="fas fa-code"></i></div>
+                <h3>Web Development</h3>
+                <p>Membangun website responsif, modern, dan cepat menggunakan teknologi terbaru seperti HTML5, CSS3, JavaScript modern, React, dan integrasi backend yang andal.</p>
+            </div>
+            
+            <div class="service-box">
+                <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h3>Mobile Development</h3>
+                <p>Merancang dan membangun aplikasi mobile lintas platform (cross-platform) yang responsif, berkinerja tinggi, dan ramah pengguna.</p>
+            </div>
+            
+            <div class="service-box">
+                <div class="service-icon"><i class="fas fa-microchip"></i></div>
+                <h3>IoT Development</h3>
+                <p>Mengintegrasikan perangkat keras (sensor, ESP32/Arduino) dengan perangkat lunak untuk otomatisasi, monitoring data, dan kontrol nirkabel secara real-time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading"><span>Skills</span></h2>
+        
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>Programming & Systems</h3>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fa-brands fa-python"></i> <span>Python</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-js"></i> <span>JavaScript</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-html5"></i> <span>HTML5</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-css3-alt"></i> <span>CSS3</span></div>
+                    <div class="skill-item"><i class="fas fa-database"></i> <span>SQL / NoSQL</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-shield-halved"></i> <span>Cyber Security</span></div>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <h3>Hardware, IoT & Tools</h3>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fa-solid fa-code"></i> <span>C / C++</span></div>
+                    <div class="skill-item"><i class="fas fa-microchip"></i> <span>Arduino / ESP32</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-gauge-high"></i> <span>Sensors & Actuators</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-map-location-dot"></i> <span>WebGIS Integration</span></div>
+                    <div class="skill-item"><i class="fas fa-terminal"></i> <span>Linux & Bash</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-git-alt"></i> <span>Git & GitHub</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <h2 class="heading"><span>Blog</span></h2>
+        
+        <div class="blog-container">
+            <div class="blog-box">
+                <div class="blog-img">
+                    <i class="fas fa-microchip blog-placeholder-icon"></i>
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">28 Mei 2026</span>
+                    <h3>Mengintegrasikan Sensor DHT22 dengan ESP32</h3>
+                    <p>Panduan lengkap menghubungkan sensor suhu DHT22 ke ESP32 dan mengirimkan datanya ke dashboard real-time secara nirkabel.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="blog-box">
+                <div class="blog-img">
+                    <i class="fas fa-map-marked-alt blog-placeholder-icon"></i>
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">15 April 2026</span>
+                    <h3>Membangun WebGIS Interaktif dengan OpenLayers</h3>
+                    <p>Bagaimana cara memetakan data spasial statistik secara interaktif menggunakan OpenLayers, belajar dari pengalaman magang di BPS.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="blog-box">
+                <div class="blog-img">
+                    <i class="fas fa-shield-alt blog-placeholder-icon"></i>
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">02 Maret 2026</span>
+                    <h3>Dasar Keamanan IoT: Mengamankan Protokol MQTT</h3>
+                    <p>Membahas kerentanan umum pada protokol komunikasi IoT (MQTT) dan cara menerapkan enkripsi TLS/SSL untuk mengamankannya.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <h2 class="heading"><span>Experience</span></h2>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Maret 2025 - Juni 2025</div>
+                <div class="timeline-content">
+                    <h3>Magang - WebGIS Developer</h3>
+                    <p class="institution">Badan Pusat Statistik (BPS) Provinsi Kalimantan Tengah</p>
+                    <p>Merancang dan mengimplementasikan modul WebGIS interaktif menggunakan JavaScript dan OpenLayers untuk memetakan data spasial statistik secara real-time.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024 - Sekarang</div>
+                <div class="timeline-content">
+                    <h3>Freelance Web Developer</h3>
+                    <p class="institution">Mandiri / Jasa Coding</p>
+                    <p>Membantu mahasiswa dan bisnis lokal membangun landing page interaktif, aplikasi web presensi, serta sistem manajemen database.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading"><span>Contact</span></h2>
+        
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Let's work together!</h3>
+                <p>Punya ide proyek hebat atau butuh bantuan pembuatan aplikasi web? Hubungi saya melalui formulir atau kontak di bawah ini. Saya akan merespons secepat mungkin.</p>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>axan.developer@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Lokasi</h4>
+                            <p>Kalimantan Tengah, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <form action="#" class="contact-form" id="contact-form">
+                <div class="input-box">
+                    <input type="text" placeholder="Nama Lengkap" required aria-label="Nama Lengkap">
+                    <input type="email" placeholder="Alamat Email" required aria-label="Alamat Email">
+                </div>
+                <div class="input-box">
+                    <input type="tel" placeholder="Nomor Telepon" aria-label="Nomor Telepon">
+                    <input type="text" placeholder="Subjek Pesan" aria-label="Subjek Pesan">
+                </div>
+                <textarea placeholder="Pesan Anda..." required aria-label="Pesan Anda"></textarea>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-text">
+            <p>&copy; 2026 Axan Portfolio. All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home" aria-label="Kembali ke atas"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript JS -->
+    <script src="script.js"></script>
+</body>
+</html>
